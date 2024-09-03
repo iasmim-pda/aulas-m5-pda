@@ -3,6 +3,8 @@
 
 // Então um componente é uma função que retorna um HTML
 
+//TODO: Formatar melhor a apresentação do card
+
 import "./styles.css";
 
 export const ProductCard = ({
@@ -24,6 +26,7 @@ export const ProductCard = ({
 						<div className="title">SIZE & COLOR</div>
 						<div className="size_wrap">
 							{tamanhos}
+							{/**TODO: listar melhor os tamanhos */}
 							{/* <ul>
 								<li>
 									<span>36</span>
